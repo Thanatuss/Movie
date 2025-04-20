@@ -1,0 +1,42 @@
+[
+  {
+    "ContainingType": "Movie.Api.Controllers.MovieController",
+    "Method": "AddMovie",
+    "RelativePath": "api/Movie/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Movie.Api.Controllers.MovieController",
+    "Method": "DeleteMovie",
+    "RelativePath": "api/Movie/Delete",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Movie.Api.Controllers.MovieController",
+    "Method": "GetMovies",
+    "RelativePath": "api/Movie/Get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Movie.Api.Controllers.MovieController",
+    "Method": "UpdateMovie",
+    "RelativePath": "api/Movie/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

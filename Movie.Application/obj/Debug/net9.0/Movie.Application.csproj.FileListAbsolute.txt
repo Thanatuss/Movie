@@ -1,0 +1,13 @@
+C:\Users\HP\Desktop\VS Projects\Movie\Movie.Application\bin\Debug\net9.0\Movie.Application.deps.json
+C:\Users\HP\Desktop\VS Projects\Movie\Movie.Application\bin\Debug\net9.0\Movie.Application.dll
+C:\Users\HP\Desktop\VS Projects\Movie\Movie.Application\bin\Debug\net9.0\Movie.Application.pdb
+C:\Users\HP\Desktop\VS Projects\Movie\Movie.Application\obj\Debug\net9.0\Movie.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\VS Projects\Movie\Movie.Application\obj\Debug\net9.0\Movie.Application.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\VS Projects\Movie\Movie.Application\obj\Debug\net9.0\Movie.Application.AssemblyInfo.cs
+C:\Users\HP\Desktop\VS Projects\Movie\Movie.Application\obj\Debug\net9.0\Movie.Application.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\VS Projects\Movie\Movie.Application\obj\Debug\net9.0\Movie.Application.sourcelink.json
+C:\Users\HP\Desktop\VS Projects\Movie\Movie.Application\obj\Debug\net9.0\Movie.Application.dll
+C:\Users\HP\Desktop\VS Projects\Movie\Movie.Application\obj\Debug\net9.0\refint\Movie.Application.dll
+C:\Users\HP\Desktop\VS Projects\Movie\Movie.Application\obj\Debug\net9.0\Movie.Application.pdb
+C:\Users\HP\Desktop\VS Projects\Movie\Movie.Application\obj\Debug\net9.0\ref\Movie.Application.dll
+C:\Users\HP\Desktop\VS Projects\Movie\Movie.Application\obj\Debug\net9.0\Movie.Application.csproj.AssemblyReference.cache

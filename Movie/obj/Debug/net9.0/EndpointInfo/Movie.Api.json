@@ -1,0 +1,58 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "Movie.Api",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/Movie/Get": {
+      "get": {
+        "tags": [
+          "Movie"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Movie/Add": {
+      "post": {
+        "tags": [
+          "Movie"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Movie/Update": {
+      "put": {
+        "tags": [
+          "Movie"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Movie/Delete": {
+      "delete": {
+        "tags": [
+          "Movie"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}

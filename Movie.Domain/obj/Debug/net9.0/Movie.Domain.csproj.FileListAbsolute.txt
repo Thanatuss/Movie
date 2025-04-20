@@ -1,0 +1,12 @@
+C:\Users\HP\Desktop\VS Projects\Movie\Movie.Domain\obj\Debug\net9.0\Movie.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\VS Projects\Movie\Movie.Domain\obj\Debug\net9.0\Movie.Domain.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\VS Projects\Movie\Movie.Domain\obj\Debug\net9.0\Movie.Domain.AssemblyInfo.cs
+C:\Users\HP\Desktop\VS Projects\Movie\Movie.Domain\obj\Debug\net9.0\Movie.Domain.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\VS Projects\Movie\Movie.Domain\obj\Debug\net9.0\Movie.Domain.sourcelink.json
+C:\Users\HP\Desktop\VS Projects\Movie\Movie.Domain\bin\Debug\net9.0\Movie.Domain.deps.json
+C:\Users\HP\Desktop\VS Projects\Movie\Movie.Domain\bin\Debug\net9.0\Movie.Domain.dll
+C:\Users\HP\Desktop\VS Projects\Movie\Movie.Domain\bin\Debug\net9.0\Movie.Domain.pdb
+C:\Users\HP\Desktop\VS Projects\Movie\Movie.Domain\obj\Debug\net9.0\Movie.Domain.dll
+C:\Users\HP\Desktop\VS Projects\Movie\Movie.Domain\obj\Debug\net9.0\refint\Movie.Domain.dll
+C:\Users\HP\Desktop\VS Projects\Movie\Movie.Domain\obj\Debug\net9.0\Movie.Domain.pdb
+C:\Users\HP\Desktop\VS Projects\Movie\Movie.Domain\obj\Debug\net9.0\ref\Movie.Domain.dll
