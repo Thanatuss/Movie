@@ -172,3 +172,8 @@ C:\Users\HP\Desktop\VS Projects\Movie\Movie\bin\Debug\net9.0\Movie.Domain.pdb
 C:\Users\HP\Desktop\VS Projects\Movie\Movie\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\HP\Desktop\VS Projects\Movie\Movie\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\HP\Desktop\VS Projects\Movie\Movie\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\HP\Desktop\VS Projects\Movie\Movie\bin\Debug\net9.0\MediatR.dll
+C:\Users\HP\Desktop\VS Projects\Movie\Movie\bin\Debug\net9.0\MediatR.Contracts.dll
+C:\Users\HP\Desktop\VS Projects\Movie\Movie\bin\Debug\net9.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\HP\Desktop\VS Projects\Movie\Movie\bin\Debug\net9.0\Movie.Application.dll
+C:\Users\HP\Desktop\VS Projects\Movie\Movie\bin\Debug\net9.0\Movie.Application.pdb

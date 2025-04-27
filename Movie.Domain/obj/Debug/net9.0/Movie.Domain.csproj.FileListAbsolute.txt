@@ -10,3 +10,4 @@ C:\Users\HP\Desktop\VS Projects\Movie\Movie.Domain\obj\Debug\net9.0\Movie.Domain
 C:\Users\HP\Desktop\VS Projects\Movie\Movie.Domain\obj\Debug\net9.0\refint\Movie.Domain.dll
 C:\Users\HP\Desktop\VS Projects\Movie\Movie.Domain\obj\Debug\net9.0\Movie.Domain.pdb
 C:\Users\HP\Desktop\VS Projects\Movie\Movie.Domain\obj\Debug\net9.0\ref\Movie.Domain.dll
+C:\Users\HP\Desktop\VS Projects\Movie\Movie.Domain\obj\Debug\net9.0\Movie.Domain.csproj.AssemblyReference.cache

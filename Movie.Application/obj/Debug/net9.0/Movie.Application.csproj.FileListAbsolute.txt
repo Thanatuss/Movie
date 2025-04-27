@@ -11,3 +11,8 @@ C:\Users\HP\Desktop\VS Projects\Movie\Movie.Application\obj\Debug\net9.0\refint\
 C:\Users\HP\Desktop\VS Projects\Movie\Movie.Application\obj\Debug\net9.0\Movie.Application.pdb
 C:\Users\HP\Desktop\VS Projects\Movie\Movie.Application\obj\Debug\net9.0\ref\Movie.Application.dll
 C:\Users\HP\Desktop\VS Projects\Movie\Movie.Application\obj\Debug\net9.0\Movie.Application.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\VS Projects\Movie\Movie.Application\bin\Debug\net9.0\Movie.Domain.dll
+C:\Users\HP\Desktop\VS Projects\Movie\Movie.Application\bin\Debug\net9.0\Movie.Infrastructure.dll
+C:\Users\HP\Desktop\VS Projects\Movie\Movie.Application\bin\Debug\net9.0\Movie.Domain.pdb
+C:\Users\HP\Desktop\VS Projects\Movie\Movie.Application\bin\Debug\net9.0\Movie.Infrastructure.pdb
+C:\Users\HP\Desktop\VS Projects\Movie\Movie.Application\obj\Debug\net9.0\Movie.Ap.4B94ECBC.Up2Date

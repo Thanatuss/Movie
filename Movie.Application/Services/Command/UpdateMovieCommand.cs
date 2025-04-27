@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Movie.Application.Services.Command
 {
-    class AddMovieCommand
-    {
-    }
+    //class AddMovieCommand
+    //{
+    //}
 }

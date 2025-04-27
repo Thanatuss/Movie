@@ -29,6 +29,7 @@ namespace Movie.Domain.Entities
 
         public DateTime CreatedAt { get; private set; } = DateTime.UtcNow;
         public DateTime? UpdatedAt { get; private set; }
+        private Movie() { }
         public Movie(string title, string description, DateTime releaseDate, int durationMinutes,
                      string director, List<string> cast, List<Genre> genres, string language,
                      string country, string ageRating, string streamUrl, string thumbnailUrl)

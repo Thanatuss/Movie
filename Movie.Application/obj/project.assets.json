@@ -1035,6 +1035,9 @@
       "Movie.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "MediatR": "12.5.0"
+        },
         "compile": {
           "bin/placeholder/Movie.Domain.dll": {}
         },
@@ -1046,6 +1049,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v9.0",
         "dependencies": {
+          "MediatR": "12.5.0",
           "Microsoft.EntityFrameworkCore": "9.0.4",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.4",
           "Movie.Domain": "1.0.0"
