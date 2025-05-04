@@ -177,3 +177,4 @@ C:\Users\HP\Desktop\VS Projects\Movie\Movie\bin\Debug\net9.0\MediatR.Contracts.d
 C:\Users\HP\Desktop\VS Projects\Movie\Movie\bin\Debug\net9.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\HP\Desktop\VS Projects\Movie\Movie\bin\Debug\net9.0\Movie.Application.dll
 C:\Users\HP\Desktop\VS Projects\Movie\Movie\bin\Debug\net9.0\Movie.Application.pdb
+C:\Users\HP\Desktop\VS Projects\Movie\Movie\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

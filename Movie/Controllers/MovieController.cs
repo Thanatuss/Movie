@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Movie.Application.DTOs.Movie;
 using Movie.Application.Services.Command;
@@ -7,6 +8,7 @@ using Movie.Application.Services.Query;
 
 namespace Movie.Api.Controllers
 {
+    [Authorize]
     [Route("api/[controller]")]
     [ApiController]
     public class MovieController : ControllerBase

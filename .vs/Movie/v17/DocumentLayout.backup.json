@@ -15,8 +15,24 @@
       "RelativeMoniker": "D:0:0:{D3D2BF0C-9414-4274-88A8-FB76B29C53C0}|Movie\\Movie.Api.csproj|solutionrelative:movie\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{D3D2BF0C-9414-4274-88A8-FB76B29C53C0}|Movie\\Movie.Api.csproj|c:\\users\\hp\\desktop\\vs projects\\movie\\movie\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D3D2BF0C-9414-4274-88A8-FB76B29C53C0}|Movie\\Movie.Api.csproj|solutionrelative:movie\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3CC58587-B497-485D-B223-D9F78E2CD558}|Movie.Application\\Movie.Application.csproj|c:\\users\\hp\\desktop\\vs projects\\movie\\movie.application\\services\\command\\authentication\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3CC58587-B497-485D-B223-D9F78E2CD558}|Movie.Application\\Movie.Application.csproj|solutionrelative:movie.application\\services\\command\\authentication\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CC58587-B497-485D-B223-D9F78E2CD558}|Movie.Application\\Movie.Application.csproj|c:\\users\\hp\\desktop\\vs projects\\movie\\movie.application\\interfaces\\jwt\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CC58587-B497-485D-B223-D9F78E2CD558}|Movie.Application\\Movie.Application.csproj|solutionrelative:movie.application\\interfaces\\jwt\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E7BB288-726B-461A-BDEB-A26EF9166113}|Movie.Domain\\Movie.Domain.csproj|c:\\users\\hp\\desktop\\vs projects\\movie\\movie.domain\\exceptions\\resultexceptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E7BB288-726B-461A-BDEB-A26EF9166113}|Movie.Domain\\Movie.Domain.csproj|solutionrelative:movie.domain\\exceptions\\resultexceptionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CC58587-B497-485D-B223-D9F78E2CD558}|Movie.Application\\Movie.Application.csproj|c:\\users\\hp\\desktop\\vs projects\\movie\\movie.application\\interfaces\\jwt\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CC58587-B497-485D-B223-D9F78E2CD558}|Movie.Application\\Movie.Application.csproj|solutionrelative:movie.application\\interfaces\\jwt\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -44,9 +60,35 @@
               "RelativeDocumentMoniker": "Movie\\Controllers\\MovieController.cs",
               "ToolTip": "C:\\Users\\HP\\Desktop\\VS Projects\\Movie\\Movie\\Controllers\\MovieController.cs",
               "RelativeToolTip": "Movie\\Controllers\\MovieController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwAoAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T08:28:46.914Z",
+              "WhenOpened": "2025-05-04T13:01:44.071Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\VS Projects\\Movie\\Movie\\appsettings.json",
+              "RelativeDocumentMoniker": "Movie\\appsettings.json",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\VS Projects\\Movie\\Movie\\appsettings.json",
+              "RelativeToolTip": "Movie\\appsettings.json",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAwAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-04T12:35:02.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ResultExceptionService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\VS Projects\\Movie\\Movie.Domain\\Exceptions\\ResultExceptionService.cs",
+              "RelativeDocumentMoniker": "Movie.Domain\\Exceptions\\ResultExceptionService.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\VS Projects\\Movie\\Movie.Domain\\Exceptions\\ResultExceptionService.cs",
+              "RelativeToolTip": "Movie.Domain\\Exceptions\\ResultExceptionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T12:29:51.529Z",
               "EditorCaption": ""
             },
             {
@@ -57,9 +99,48 @@
               "RelativeDocumentMoniker": "Movie\\Program.cs",
               "ToolTip": "C:\\Users\\HP\\Desktop\\VS Projects\\Movie\\Movie\\Program.cs",
               "RelativeToolTip": "Movie\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAqwHEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T08:26:06.834Z",
+              "WhenOpened": "2025-05-04T12:25:23.734Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\VS Projects\\Movie\\Movie.Application\\Interfaces\\JWT\\TokenService.cs",
+              "RelativeDocumentMoniker": "Movie.Application\\Interfaces\\JWT\\TokenService.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\VS Projects\\Movie\\Movie.Application\\Interfaces\\JWT\\TokenService.cs",
+              "RelativeToolTip": "Movie.Application\\Interfaces\\JWT\\TokenService.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAWwA0AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T12:21:40.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\VS Projects\\Movie\\Movie.Application\\Interfaces\\JWT\\ITokenService.cs",
+              "RelativeDocumentMoniker": "Movie.Application\\Interfaces\\JWT\\ITokenService.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\VS Projects\\Movie\\Movie.Application\\Interfaces\\JWT\\ITokenService.cs",
+              "RelativeToolTip": "Movie.Application\\Interfaces\\JWT\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T12:21:00.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RegisterCommand.cs",
+              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\VS Projects\\Movie\\Movie.Application\\Services\\Command\\Authentication\\RegisterCommand.cs",
+              "RelativeDocumentMoniker": "Movie.Application\\Services\\Command\\Authentication\\RegisterCommand.cs",
+              "ToolTip": "C:\\Users\\HP\\Desktop\\VS Projects\\Movie\\Movie.Application\\Services\\Command\\Authentication\\RegisterCommand.cs",
+              "RelativeToolTip": "Movie.Application\\Services\\Command\\Authentication\\RegisterCommand.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAA7wDEAAABwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T12:16:18.262Z",
               "EditorCaption": ""
             },
             {
@@ -70,22 +151,9 @@
               "RelativeDocumentMoniker": "Movie\\Controllers\\AuthenticationController.cs",
               "ToolTip": "C:\\Users\\HP\\Desktop\\VS Projects\\Movie\\Movie\\Controllers\\AuthenticationController.cs",
               "RelativeToolTip": "Movie\\Controllers\\AuthenticationController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAIwBUAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T08:23:50.928Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RegisterCommand.cs",
-              "DocumentMoniker": "C:\\Users\\HP\\Desktop\\VS Projects\\Movie\\Movie.Application\\Services\\Command\\Authentication\\RegisterCommand.cs",
-              "RelativeDocumentMoniker": "Movie.Application\\Services\\Command\\Authentication\\RegisterCommand.cs",
-              "ToolTip": "C:\\Users\\HP\\Desktop\\VS Projects\\Movie\\Movie.Application\\Services\\Command\\Authentication\\RegisterCommand.cs",
-              "RelativeToolTip": "Movie.Application\\Services\\Command\\Authentication\\RegisterCommand.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAswA4AAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-04T08:18:29.058Z",
+              "WhenOpened": "2025-05-04T12:16:03.484Z",
               "EditorCaption": ""
             }
           ]

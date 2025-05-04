@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Movie.Application.DTOs.Authentication;
 using Movie.Application.Services.Command.Authentication;
@@ -18,6 +19,7 @@ namespace Movie.Api.Controllers
         {
             return View();
         }
+        [AllowAnonymous]
         [HttpPost("Register")]
         public IActionResult Register(RegisterDto register)
         {
