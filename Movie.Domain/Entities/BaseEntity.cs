@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Movie.Domain.Entities
 {
-    public abstract class BaseEntity
+    public  class BaseEntity
     {
         public Guid Id { get; private set; } = Guid.NewGuid();
 

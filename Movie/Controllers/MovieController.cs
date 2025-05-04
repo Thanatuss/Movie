@@ -1,5 +1,8 @@
 ﻿using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using Movie.Application.DTOs.Movie;
+using Movie.Application.Services.Command;
+using Movie.Application.Services.Command.Movie;
 using Movie.Application.Services.Query;
 
 namespace Movie.Api.Controllers
@@ -21,14 +24,18 @@ namespace Movie.Api.Controllers
             return Ok(result);
         }
         [HttpPost("Add")]
-        public IActionResult AddMovie()
+        public IActionResult AddMovie(AddMovieDto AddMovieDto)
         {
-            return Ok();
+            var command = new AddMovieCommand(AddMovieDto);
+            var result = _mediator.Send(command);
+            return Ok(result.Result.Message);
         }
         [HttpPut("Update")]
-        public IActionResult UpdateMovie()
+        public IActionResult UpdateMovie(UpdateMovieDto updateMovieDto)
         {
-            return Ok();
+            var command = new UpdateMovieCommand(updateMovieDto);
+            var result = _mediator.Send(command);
+            return Ok(result);
         }
         [HttpDelete("Delete")]
         public IActionResult DeleteMovie()

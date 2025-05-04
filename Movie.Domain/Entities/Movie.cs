@@ -29,7 +29,7 @@ namespace Movie.Domain.Entities
 
         public DateTime CreatedAt { get; private set; } = DateTime.UtcNow;
         public DateTime? UpdatedAt { get; private set; }
-        private Movie() { }
+        public Movie() { }
         public Movie(string title, string description, DateTime releaseDate, int durationMinutes,
                      string director, List<string> cast, List<Genre> genres, string language,
                      string country, string ageRating, string streamUrl, string thumbnailUrl)
@@ -80,5 +80,34 @@ namespace Movie.Domain.Entities
         */
         //public void Publish() => IsPublished = true;
         //public void UpdateInfo(...) { /* Update logic */ }
+        public void UpdateInfo(
+    string title,
+    string description,
+    DateTime releaseDate,
+    int durationMinutes,
+    string director,
+    List<string> cast,
+    List<Genre> genres,
+    string language,
+    string country,
+    string ageRating,
+    string streamUrl,
+    string thumbnailUrl)
+        {
+            Title = title;
+            Description = description;
+            ReleaseDate = releaseDate;
+            DurationMinutes = durationMinutes;
+            Director = director;
+            Cast = cast;
+            Genres = genres;
+            Language = language;
+            Country = country;
+            AgeRating = ageRating;
+            StreamUrl = streamUrl;
+            ThumbnailUrl = thumbnailUrl;
+            UpdatedAt = DateTime.UtcNow;
+        }
+
     }
 }

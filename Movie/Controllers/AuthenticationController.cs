@@ -1,0 +1,29 @@
+﻿using MediatR;
+using Microsoft.AspNetCore.Mvc;
+using Movie.Application.DTOs.Authentication;
+using Movie.Application.Services.Command.Authentication;
+
+namespace Movie.Api.Controllers
+{
+    public class AuthenticationController : Controller
+    {
+        private readonly IMediator _mediator;
+
+        public AuthenticationController(IMediator mediator)
+        {
+            _mediator = mediator;
+        }
+
+        public IActionResult Index()
+        {
+            return View();
+        }
+        [HttpPost("Register")]
+        public IActionResult Register(RegisterDto register)
+        {
+            var command = new RegisterCommand(register);
+            var result = _mediator.Send(command);
+            return Ok(result.Result.Message);
+        }
+    }
+}

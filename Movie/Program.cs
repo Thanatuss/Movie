@@ -1,6 +1,7 @@
 ﻿using System.Reflection;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
+using Movie.Application.Services.Command.Authentication;
 using Movie.Application.Services.Query;
 using Movie.Infrastructure.Elastic;
 using Movie.Infrastructure.Persistence;
@@ -21,6 +22,7 @@ builder.Services.AddMediatR(cfg =>
 {
     cfg.RegisterServicesFromAssembly(typeof(Program).Assembly);
     cfg.RegisterServicesFromAssembly(typeof(GetMovieCommand).Assembly);
+    cfg.RegisterServicesFromAssembly(typeof(RegisterCommand).Assembly);
 });
 builder.Services.AddHttpClient<ElasticLogger>();
 var app = builder.Build();

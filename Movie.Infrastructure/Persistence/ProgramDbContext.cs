@@ -15,6 +15,7 @@ namespace Movie.Infrastructure.Persistence
         }
 
         public DbSet<Movie.Domain.Entities.Movie> Movies { get; set; }
+        public DbSet<Movie.Domain.Entities.User> Users { get; set; }
         public DbSet<Genre> Genres { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
