@@ -27,5 +27,13 @@ namespace Movie.Api.Controllers
             var result = _mediator.Send(command);
             return Ok(result.Result.Message);
         }
+        [HttpGet("Login")]
+        [AllowAnonymous]
+        public IActionResult Login(LoginCommand login , CancellationToken cancel)
+        {
+            var command = login;
+            var result = _mediator.Send(command , cancel);
+            return Ok(result);
+        }
     }
 }

@@ -53,12 +53,38 @@
   },
   {
     "ContainingType": "Movie.Api.Controllers.AuthenticationController",
+    "Method": "Login",
+    "RelativePath": "Login",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Username",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Movie.Api.Controllers.AuthenticationController",
     "Method": "Register",
     "RelativePath": "Register",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
+      {
+        "Name": "Fullname",
+        "Type": "System.String",
+        "IsRequired": false
+      },
       {
         "Name": "Username",
         "Type": "System.String",

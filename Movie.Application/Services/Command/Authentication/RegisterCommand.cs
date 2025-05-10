@@ -42,6 +42,7 @@ namespace Movie.Application.Services.Command.Authentication
                 {
                     Fullname = user.Username,
                     Password = user.Password,
+                    Username = user.Username
 
                 };
                 await _dbcontext.Users.AddAsync(newUser);
