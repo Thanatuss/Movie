@@ -28,22 +28,19 @@ namespace Movie.Application.Services.Command.Authentication
             var password = request.Password;
             try
             {
-                var user = await _dbcontext.Users.SingleOrDefaultAsync(x => x.Username == username);
-                if (user == null)
-                    return await ResultExceptionService.NotFound("User not found");
-                var checkPass = user.Password == password;
-                if (!checkPass)
-                    return await ResultExceptionService.Error("Incorrect password");
-                var token =  _token.CreateToken(user);
-                return await ResultExceptionService.Success($"Login successful - Your token is {token}");
-
+                var user = await _dbcontext.Users.FirstOrDefaultAsync(x => x.Fullname == username && x.Password == password && x.IsDeleted == false);
+                if (user != null)
+                {
+                    var token = _token.CreateToken(user);
+                    return await ResultExceptionService.Success($"Login successful - Your token is {token}");
+                }
+                return await ResultExceptionService.Error($"Login failds");
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 return await ResultExceptionService.Error("An unexpected error occurred.");
 
             }
-            return await ResultExceptionService.Success("Success");
         }
     }
 }

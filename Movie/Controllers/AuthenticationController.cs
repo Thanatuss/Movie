@@ -33,7 +33,7 @@ namespace Movie.Api.Controllers
         {
             var command = login;
             var result = _mediator.Send(command , cancel);
-            return Ok(result);
+            return Ok(result.Result.Message);
         }
     }
 }

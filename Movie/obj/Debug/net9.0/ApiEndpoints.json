@@ -22,7 +22,13 @@
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "deleteMovieDto",
+        "Type": "Movie.Application.DTOs.Movie.DeleteMovieDto",
+        "IsRequired": true
+      }
+    ],
     "ReturnTypes": []
   },
   {

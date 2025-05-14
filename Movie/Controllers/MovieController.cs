@@ -1,4 +1,5 @@
-﻿using MediatR;
+﻿using System.Threading.Tasks;
+using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Movie.Application.DTOs.Movie;
@@ -44,9 +45,12 @@ namespace Movie.Api.Controllers
             return Ok(result);
         }
         [HttpDelete("Delete")]
-        public IActionResult DeleteMovie()
+        [AllowAnonymous]
+        public async Task<IActionResult> DeleteMovie(DeleteMovieDto deleteMovieDto)
         {
-            return Ok();
+            var command = new DeleteMovieCommand(deleteMovieDto);
+            var result =await _mediator.Send(command);
+            return Ok(result);
         }
     }
 }

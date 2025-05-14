@@ -62,6 +62,14 @@ namespace Movie.Application.Exceptions
 
             return null; 
         }
+        public static string? DeleteValidate(DeleteMovieDto movie)
+        {
+            if (string.IsNullOrWhiteSpace(movie.Title))
+                return "Title cannot be empty.";
+            if (movie.Id == Guid.Empty)
+                return "Id cannot be smaller than 1";
+            return null;
+        }
 
 
 
