@@ -12,6 +12,7 @@ using System.Text;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.OpenApi.Models;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -20,6 +21,10 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer(); // برای OpenAPI یا 
 builder.Services.AddSwaggerGen(); // برای Swagger UI
 builder.Services.AddSwaggerGen();
+// Serilog
+Log.Logger = new LoggerConfiguration()
+    .WriteTo.Console()
+    .CreateLogger();
 // Add DbContext to the container
 builder.Services.AddDbContext<ProgramDbContext>(options =>
 {

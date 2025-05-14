@@ -14,13 +14,17 @@ namespace Movie.Api.Controllers
     public class MovieController : ControllerBase
     {
         private readonly IMediator _mediator;
-        public MovieController(IMediator mediator)
+        private readonly ILogger<MovieController> _logger;
+        public MovieController(IMediator mediator, ILogger<MovieController> logger)
         {
             _mediator = mediator;
+            _logger = logger;
         }
         [HttpGet("Get")]
+        [AllowAnonymous]
         public IActionResult GetMovies()
         {
+            _logger.LogInformation("Start GetMovies action");
             var command = new GetMovieCommand();
             var result = _mediator.Send(command);
             return Ok(result);

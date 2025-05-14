@@ -1,13 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using MediatR;
+﻿using MediatR;
 using Microsoft.EntityFrameworkCore;
-using Movie.Application.DTOs.Authentication;
 using Movie.Application.Interfaces.JWT;
-using Movie.Domain.Entities;
 using Movie.Domain.Exceptions;
 using Movie.Infrastructure.Persistence;
 
@@ -36,9 +29,9 @@ namespace Movie.Application.Services.Command.Authentication
             try
             {
                 var user = await _dbcontext.Users.SingleOrDefaultAsync(x => x.Username == username);
-                var checkPass = user.Password == password;
                 if (user == null)
                     return await ResultExceptionService.NotFound("User not found");
+                var checkPass = user.Password == password;
                 if (!checkPass)
                     return await ResultExceptionService.Error("Incorrect password");
                 var token =  _token.CreateToken(user);

@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MediatR;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 using Movie.Application.DTOs.Movie;
 using Movie.Application.Exceptions;
 using Movie.Domain.Entities;
@@ -24,10 +26,11 @@ namespace Movie.Application.Services.Command.Movie
     public class UpdateMovieHandler : IRequestHandler<UpdateMovieCommand, ResultExceptionService>
     {
         public ProgramDbContext _dbcontext { get; set; }
-
-        public UpdateMovieHandler(ProgramDbContext dbcontext)
+        private readonly ILogger<UpdateMovieHandler> _logger;
+        public UpdateMovieHandler(ProgramDbContext dbcontext, ILogger<UpdateMovieHandler> logger)
         {
             _dbcontext = dbcontext;
+            _logger = logger;
         }
         public async Task<ResultExceptionService> Handle(UpdateMovieCommand request, CancellationToken cancellationToken)
         {
@@ -37,7 +40,7 @@ namespace Movie.Application.Services.Command.Movie
             try
             {
                 var info = request.UpdateMovieDto;
-                var movie = _dbcontext.Movies.FirstOrDefault(x => x.IsDeleted == false && x.Title == info.Title);
+                var movie = await _dbcontext.Movies.FirstOrDefaultAsync(x => x.IsDeleted == false && x.Title == info.Title);
                 if (movie == null)
                     return await ResultExceptionService.NotFound("Movie not found");
 
@@ -55,11 +58,13 @@ namespace Movie.Application.Services.Command.Movie
                     streamUrl: info.StreamUrl,
                     thumbnailUrl: info.ThumbnailUrl
 );
-                await _dbcontext.SaveChangesAsync();
+                await _dbcontext.SaveChangesAsync(cancellationToken);
+                _logger.LogInformation("UpdateMovieHandler is closed successfully!");
                 return await ResultExceptionService.Success("You changed the information successfully!");
             }
             catch (Exception ex)
             {
+                _logger.LogError("Error occurred while updating a movie!");
                 return await ResultExceptionService.Success($"{ex.Message}");
 
             }

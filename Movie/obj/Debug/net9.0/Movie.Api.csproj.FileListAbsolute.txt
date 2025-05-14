@@ -178,3 +178,5 @@ C:\Users\HP\Desktop\VS Projects\Movie\Movie\bin\Debug\net9.0\MediatR.Extensions.
 C:\Users\HP\Desktop\VS Projects\Movie\Movie\bin\Debug\net9.0\Movie.Application.dll
 C:\Users\HP\Desktop\VS Projects\Movie\Movie\bin\Debug\net9.0\Movie.Application.pdb
 C:\Users\HP\Desktop\VS Projects\Movie\Movie\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\HP\Desktop\VS Projects\Movie\Movie\bin\Debug\net9.0\Serilog.dll
+C:\Users\HP\Desktop\VS Projects\Movie\Movie\bin\Debug\net9.0\Serilog.Sinks.Console.dll

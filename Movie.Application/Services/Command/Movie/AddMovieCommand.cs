@@ -1,4 +1,5 @@
 ﻿using MediatR;
+using Microsoft.Extensions.Logging;
 using Movie.Application.DTOs.Movie;
 using Movie.Application.Exceptions;
 using Movie.Domain.Exceptions;
@@ -17,16 +18,18 @@ namespace Movie.Application.Services.Command.Movie
     public class AddMovieHandler : IRequestHandler<AddMovieCommand, ResultExceptionService>
     {
         private readonly ProgramDbContext _dbContext;
-        public AddMovieHandler(ProgramDbContext dbContext)
+        private readonly ILogger<AddMovieHandler>  _logger;
+        public AddMovieHandler(ProgramDbContext dbContext, ILogger<AddMovieHandler> logger)
         {
             _dbContext = dbContext;
+            _logger = logger;
         }
         public async Task<ResultExceptionService> Handle(AddMovieCommand request, CancellationToken cancellationToken)
         {
             var validation = MovieValidation.AddValidate(request.AddMovieDto);
             if(validation != null)
                 return await ResultExceptionService
-                    .Error("Your information is not valid!");
+                    .Error($"{validation}");
             try
             {
                 var info = request.AddMovieDto;
@@ -44,14 +47,17 @@ namespace Movie.Application.Services.Command.Movie
                     streamUrl: info.StreamUrl,
                     thumbnailUrl: info.ThumbnailUrl
                     );
-                await _dbContext.Movies.AddAsync(newMovie);
-                _dbContext.SaveChanges();
+                await _dbContext.Movies.AddAsync(newMovie , cancellationToken);
+                await _dbContext.SaveChangesAsync(cancellationToken);
+                _logger.LogInformation("AddMovieHandler is closed successfully!");
                 return await ResultExceptionService
                     .Success("Add is successfull!");
 
             }
             catch (Exception ex)
             {
+                _logger.LogError("Error occurred while adding a movie!");
+
                 return await ResultExceptionService.Error(ex.Message);
 
             }

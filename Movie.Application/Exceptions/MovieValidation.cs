@@ -35,7 +35,7 @@ namespace Movie.Application.Exceptions
             if (string.IsNullOrWhiteSpace(movie.ThumbnailUrl))
                 return "ThumbnailUrl cannot be empty.";
 
-            return null; // No validation errors
+            return null; 
         }
         public static string? UpdateValidate(UpdateMovieDto movie)
         {
@@ -60,7 +60,7 @@ namespace Movie.Application.Exceptions
             if (string.IsNullOrWhiteSpace(movie.ThumbnailUrl))
                 return "ThumbnailUrl cannot be empty.";
 
-            return null; // No validation errors
+            return null; 
         }
 
 
