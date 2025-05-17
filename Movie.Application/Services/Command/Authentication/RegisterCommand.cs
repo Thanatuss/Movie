@@ -4,7 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MediatR;
+using Microsoft.AspNetCore.Http;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Identity.Client;
 using Movie.Application.DTOs.Authentication;
 using Movie.Application.Interfaces.JWT;
 using Movie.Domain.Entities;
@@ -45,13 +47,40 @@ namespace Movie.Application.Services.Command.Authentication
                     Username = user.Username
 
                 };
+
                 await _dbcontext.Users.AddAsync(newUser);
                 _dbcontext.SaveChanges();
+                var userId = await _dbcontext.Users.Where(x => x.Fullname == user.Username).Select(x => x.Id).FirstOrDefaultAsync();
+                var filename = SaveFile(user.ProfileImage);
+                var newProfile = new UserProfile()
+                {
+                    Address = user.Address,
+                    DateOfBirth = user.DateOfBirth,
+                    PhoneNumber = Convert.ToInt64(user.PhoneNumber),
+                    ProfilePictureUrl = filename,
+                    User = newUser,
+                    UserId = userId
+
+                };
+                var addUserProfile = await _dbcontext.UserProfile.AddAsync(newProfile);
+                await _dbcontext.SaveChangesAsync();
                 var token = _token.CreateToken(newUser);
                 return await ResultExceptionService.Success($"You Registered successfully - Your token is {token}");
             }
-
             return await ResultExceptionService.Success("You could not register");
+        }
+        public string SaveFile(IFormFile data)
+        {
+            var rootPath = Directory.GetCurrentDirectory();
+            var uploadPath = Path.Combine(rootPath, "wwwroot", "uploads");
+            Directory.CreateDirectory(uploadPath);
+            var fileName = Guid.NewGuid().ToString() + Path.GetExtension(data.FileName);
+            var filePath = Path.Combine(uploadPath, fileName);
+            using (var stream = new FileStream(filePath, FileMode.Create))
+            {
+                data.CopyTo(stream);
+            }
+            return fileName;
         }
     }
 }

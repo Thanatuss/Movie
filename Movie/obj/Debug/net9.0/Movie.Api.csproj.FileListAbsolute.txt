@@ -180,3 +180,4 @@ C:\Users\HP\Desktop\VS Projects\Movie\Movie\bin\Debug\net9.0\Movie.Application.p
 C:\Users\HP\Desktop\VS Projects\Movie\Movie\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\HP\Desktop\VS Projects\Movie\Movie\bin\Debug\net9.0\Serilog.dll
 C:\Users\HP\Desktop\VS Projects\Movie\Movie\bin\Debug\net9.0\Serilog.Sinks.Console.dll
+C:\Users\HP\Desktop\VS Projects\Movie\Movie\bin\Debug\net9.0\Movie.Api.staticwebassets.runtime.json

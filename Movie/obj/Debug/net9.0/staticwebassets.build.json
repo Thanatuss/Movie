@@ -1,12 +1,125 @@
 {
   "Version": 1,
-  "Hash": "Ys/L/zXT+U51xslwUVo7NzeINnEaxM+cqKpPOkf0h44=",
+  "Hash": "/qTmATdF0IAOvNBtEEiNrIX0lQzLIT2DmsyW7yba8wE=",
   "Source": "Movie.Api",
   "BasePath": "_content/Movie.Api",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "Movie.Api\\wwwroot",
+      "Source": "Movie.Api",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\VS Projects\\Movie\\Movie\\wwwroot\\",
+      "BasePath": "_content/Movie.Api",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\HP\\Desktop\\VS Projects\\Movie\\Movie\\wwwroot\\uploads\\0816d293-ee44-42ea-9458-eb1c1ad0c5da.jpg",
+      "SourceId": "Movie.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\VS Projects\\Movie\\Movie\\wwwroot\\",
+      "BasePath": "_content/Movie.Api",
+      "RelativePath": "uploads/0816d293-ee44-42ea-9458-eb1c1ad0c5da#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "l719eq3p9h",
+      "Integrity": "YVSAIqqEh9BHscV3k6hFvF48EwJXUE6mdeKShm14le0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\0816d293-ee44-42ea-9458-eb1c1ad0c5da.jpg"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "uploads/0816d293-ee44-42ea-9458-eb1c1ad0c5da.jpg",
+      "AssetFile": "C:\\Users\\HP\\Desktop\\VS Projects\\Movie\\Movie\\wwwroot\\uploads\\0816d293-ee44-42ea-9458-eb1c1ad0c5da.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "644227"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YVSAIqqEh9BHscV3k6hFvF48EwJXUE6mdeKShm14le0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 17 May 2025 09:07:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YVSAIqqEh9BHscV3k6hFvF48EwJXUE6mdeKShm14le0="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/0816d293-ee44-42ea-9458-eb1c1ad0c5da.l719eq3p9h.jpg",
+      "AssetFile": "C:\\Users\\HP\\Desktop\\VS Projects\\Movie\\Movie\\wwwroot\\uploads\\0816d293-ee44-42ea-9458-eb1c1ad0c5da.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "644227"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YVSAIqqEh9BHscV3k6hFvF48EwJXUE6mdeKShm14le0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 17 May 2025 09:07:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l719eq3p9h"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/0816d293-ee44-42ea-9458-eb1c1ad0c5da.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YVSAIqqEh9BHscV3k6hFvF48EwJXUE6mdeKShm14le0="
+        }
+      ]
+    }
+  ]
 }

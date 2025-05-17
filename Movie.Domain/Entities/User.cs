@@ -12,6 +12,7 @@ namespace Movie.Domain.Entities
         public string Username { get; set; }
         public string Password { get; set; }
         public UserRole Role { get; set; }
+        public UserProfile UserProfile { get; set; }
     }
     public enum UserRole
     {

@@ -65,6 +65,10 @@
               "target": "Package",
               "version": "[11.1.0, )"
             },
+            "Microsoft.AspNetCore.Http.Features": {
+              "target": "Package",
+              "version": "[5.0.17, )"
+            },
             "Serilog": {
               "target": "Package",
               "version": "[4.2.0, )"

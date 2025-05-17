@@ -58,6 +58,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Movie.Api.Controllers.ProfileController",
+    "Method": "Profile",
+    "RelativePath": "api/Profile/profile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Movie.Api.Controllers.AuthenticationController",
     "Method": "Login",
     "RelativePath": "Login",
@@ -99,6 +109,26 @@
       {
         "Name": "Password",
         "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PhoneNumber",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Address",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DateOfBirth",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=9.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "ProfileImage",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
         "IsRequired": false
       }
     ],
