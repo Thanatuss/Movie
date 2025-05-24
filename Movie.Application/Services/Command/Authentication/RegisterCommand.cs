@@ -26,13 +26,9 @@ namespace Movie.Application.Services.Command.Authentication
     public class RegisterHandler : IRequestHandler<RegisterCommand, ResultExceptionService>
     {
         private readonly ProgramDbContext _dbcontext;
-        private readonly ITokenService _token;
-
-        public RegisterHandler(ProgramDbContext dbcontext, ITokenService token)
+        public RegisterHandler(ProgramDbContext dbcontext)
         {
-            _dbcontext = dbcontext;
-            _token = token;
-        }
+            _dbcontext = dbcontext;        }
 
         public async Task<ResultExceptionService> Handle(RegisterCommand request, CancellationToken cancellationToken)
         {
@@ -64,8 +60,7 @@ namespace Movie.Application.Services.Command.Authentication
                 };
                 var addUserProfile = await _dbcontext.UserProfile.AddAsync(newProfile);
                 await _dbcontext.SaveChangesAsync();
-                var token = _token.CreateToken(newUser);
-                return await ResultExceptionService.Success($"You Registered successfully - Your token is {token}");
+                return await ResultExceptionService.Success($"You Registered successfully");
             }
             return await ResultExceptionService.Success("You could not register");
         }

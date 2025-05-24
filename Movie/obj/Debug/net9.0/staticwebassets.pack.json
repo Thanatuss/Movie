@@ -1,8 +1,16 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\HP\\Desktop\\VS Projects\\Movie\\Movie\\wwwroot\\uploads\\02cbf918-f22e-4d57-b0cf-7730931d8e0b.jpg",
+      "PackagePath": "staticwebassets\\uploads\\02cbf918-f22e-4d57-b0cf-7730931d8e0b.jpg"
+    },
+    {
       "Id": "C:\\Users\\HP\\Desktop\\VS Projects\\Movie\\Movie\\wwwroot\\uploads\\0816d293-ee44-42ea-9458-eb1c1ad0c5da.jpg",
       "PackagePath": "staticwebassets\\uploads\\0816d293-ee44-42ea-9458-eb1c1ad0c5da.jpg"
+    },
+    {
+      "Id": "C:\\Users\\HP\\Desktop\\VS Projects\\Movie\\Movie\\wwwroot\\uploads\\6abb90e3-6826-4d8b-a19a-b7687588aae1.jpg",
+      "PackagePath": "staticwebassets\\uploads\\6abb90e3-6826-4d8b-a19a-b7687588aae1.jpg"
     },
     {
       "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.Movie.Api.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

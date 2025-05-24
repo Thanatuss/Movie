@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "/qTmATdF0IAOvNBtEEiNrIX0lQzLIT2DmsyW7yba8wE=",
+  "Hash": "DlHfuFBuEGE7pbcY8bchtGTCPzZDirgIUz0NvGT/M5Q=",
   "Source": "Movie.Api",
   "BasePath": "_content/Movie.Api",
   "Mode": "Default",
@@ -16,6 +16,27 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\HP\\Desktop\\VS Projects\\Movie\\Movie\\wwwroot\\uploads\\02cbf918-f22e-4d57-b0cf-7730931d8e0b.jpg",
+      "SourceId": "Movie.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\VS Projects\\Movie\\Movie\\wwwroot\\",
+      "BasePath": "_content/Movie.Api",
+      "RelativePath": "uploads/02cbf918-f22e-4d57-b0cf-7730931d8e0b#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "l719eq3p9h",
+      "Integrity": "YVSAIqqEh9BHscV3k6hFvF48EwJXUE6mdeKShm14le0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\02cbf918-f22e-4d57-b0cf-7730931d8e0b.jpg"
+    },
     {
       "Identity": "C:\\Users\\HP\\Desktop\\VS Projects\\Movie\\Movie\\wwwroot\\uploads\\0816d293-ee44-42ea-9458-eb1c1ad0c5da.jpg",
       "SourceId": "Movie.Api",
@@ -36,9 +57,112 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\0816d293-ee44-42ea-9458-eb1c1ad0c5da.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\Desktop\\VS Projects\\Movie\\Movie\\wwwroot\\uploads\\6abb90e3-6826-4d8b-a19a-b7687588aae1.jpg",
+      "SourceId": "Movie.Api",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\VS Projects\\Movie\\Movie\\wwwroot\\",
+      "BasePath": "_content/Movie.Api",
+      "RelativePath": "uploads/6abb90e3-6826-4d8b-a19a-b7687588aae1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "l719eq3p9h",
+      "Integrity": "YVSAIqqEh9BHscV3k6hFvF48EwJXUE6mdeKShm14le0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\6abb90e3-6826-4d8b-a19a-b7687588aae1.jpg"
     }
   ],
   "Endpoints": [
+    {
+      "Route": "uploads/02cbf918-f22e-4d57-b0cf-7730931d8e0b.jpg",
+      "AssetFile": "C:\\Users\\HP\\Desktop\\VS Projects\\Movie\\Movie\\wwwroot\\uploads\\02cbf918-f22e-4d57-b0cf-7730931d8e0b.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "644227"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YVSAIqqEh9BHscV3k6hFvF48EwJXUE6mdeKShm14le0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 21 May 2025 08:15:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YVSAIqqEh9BHscV3k6hFvF48EwJXUE6mdeKShm14le0="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/02cbf918-f22e-4d57-b0cf-7730931d8e0b.l719eq3p9h.jpg",
+      "AssetFile": "C:\\Users\\HP\\Desktop\\VS Projects\\Movie\\Movie\\wwwroot\\uploads\\02cbf918-f22e-4d57-b0cf-7730931d8e0b.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "644227"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YVSAIqqEh9BHscV3k6hFvF48EwJXUE6mdeKShm14le0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 21 May 2025 08:15:03 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l719eq3p9h"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/02cbf918-f22e-4d57-b0cf-7730931d8e0b.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YVSAIqqEh9BHscV3k6hFvF48EwJXUE6mdeKShm14le0="
+        }
+      ]
+    },
     {
       "Route": "uploads/0816d293-ee44-42ea-9458-eb1c1ad0c5da.jpg",
       "AssetFile": "C:\\Users\\HP\\Desktop\\VS Projects\\Movie\\Movie\\wwwroot\\uploads\\0816d293-ee44-42ea-9458-eb1c1ad0c5da.jpg",
@@ -114,6 +238,88 @@
         {
           "Name": "label",
           "Value": "uploads/0816d293-ee44-42ea-9458-eb1c1ad0c5da.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-YVSAIqqEh9BHscV3k6hFvF48EwJXUE6mdeKShm14le0="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/6abb90e3-6826-4d8b-a19a-b7687588aae1.jpg",
+      "AssetFile": "C:\\Users\\HP\\Desktop\\VS Projects\\Movie\\Movie\\wwwroot\\uploads\\6abb90e3-6826-4d8b-a19a-b7687588aae1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "644227"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YVSAIqqEh9BHscV3k6hFvF48EwJXUE6mdeKShm14le0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 21 May 2025 08:12:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-YVSAIqqEh9BHscV3k6hFvF48EwJXUE6mdeKShm14le0="
+        }
+      ]
+    },
+    {
+      "Route": "uploads/6abb90e3-6826-4d8b-a19a-b7687588aae1.l719eq3p9h.jpg",
+      "AssetFile": "C:\\Users\\HP\\Desktop\\VS Projects\\Movie\\Movie\\wwwroot\\uploads\\6abb90e3-6826-4d8b-a19a-b7687588aae1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "644227"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"YVSAIqqEh9BHscV3k6hFvF48EwJXUE6mdeKShm14le0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 21 May 2025 08:12:01 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l719eq3p9h"
+        },
+        {
+          "Name": "label",
+          "Value": "uploads/6abb90e3-6826-4d8b-a19a-b7687588aae1.jpg"
         },
         {
           "Name": "integrity",

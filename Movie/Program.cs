@@ -21,6 +21,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer(); // برای OpenAPI یا 
 builder.Services.AddSwaggerGen(); // برای Swagger UI
 builder.Services.AddSwaggerGen();
+builder.Services.AddHttpContextAccessor();
+
 // Serilog
 Log.Logger = new LoggerConfiguration()
     .WriteTo.Console()

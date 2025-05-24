@@ -33,6 +33,22 @@
   },
   {
     "ContainingType": "Movie.Api.Controllers.MovieController",
+    "Method": "DetailMovie",
+    "RelativePath": "api/Movie/Detail/{Id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Id",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Movie.Api.Controllers.MovieController",
     "Method": "GetMovies",
     "RelativePath": "api/Movie/Get",
     "HttpMethod": "GET",
